@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal CV - Nguyen Van A</title>
+    <!-- Include Tailwind CSS from CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom font import */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Custom styles for the progress bar */
+        .progress-bar {
+            background-color: #e0e0e0;
+            border-radius: 9999px;
+            height: 8px;
+            overflow: hidden;
+        }
+        .progress {
+            background-color: #ffffff;
+            height: 100%;
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 p-4 md:p-10">
+
+    <!-- CV Container -->
+    <div class="max-w-4xl mx-auto bg-white shadow-2xl rounded-xl overflow-hidden">
+        <div class="flex flex-col md:flex-row">
+
+            <!-- Left Column (40%) -->
+            <div class="md:w-2/5 bg-gray-800 text-white p-8">
+                <!-- Avatar Section -->
+                <div class="flex justify-center mb-8">
+                    <div class="w-40 h-40 bg-gray-600 rounded-full flex items-center justify-center border-4 border-gray-500">
+                        <!-- User Icon SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-24 w-24 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- About Me Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold border-b-2 border-gray-500 pb-2 mb-4">ABOUT ME</h2>
+                    <p class="text-sm text-gray-300">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Itaque dicta quidem
+                        ipsam, assumenda dolorum, quis. Ext itaque dicta quidem ipsam,
+                        assumenda dolorum, quis. Voluptatibus placeat assumenda dolorum,
+                        quis. Perspiciatis deserunt voluptatibus placeat.
+                    </p>
+                </div>
+
+                <!-- Contact Us Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold border-b-2 border-gray-500 pb-2 mb-4">CONTACT US</h2>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-sm">
+                            <!-- Address Icon SVG -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />
+                            </svg>
+                            <span class="text-gray-300">Address, Lorem ipsum dolor sit amet, consectetur</span>
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <!-- Phone Icon SVG -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.518.759a11.03 11.03 0 004.991 4.991l.759-1.518a1 1 0 011.06-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.84 18 2 12.16 2 5V3z" />
+                            </svg>
+                            <span class="text-gray-300">Phone: 0123.456.789</span>
+                        </li>
+                        <li class="flex items-center text-sm">
+                            <!-- Email Icon SVG -->
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
+                                <path d="M2.003 5.884L10 10.884l7.997-5H2.003zM18 8.118l-8 4.619L2 8.118V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                            </svg>
+                            <span class="text-gray-300">Email: demo@gmail.com</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold border-b-2 border-gray-500 pb-2 mb-4">SKILLS</h2>
+                    <ul class="space-y-4">
+                        <li>
+                            <p class="text-sm font-medium mb-1">Photoshop</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="text-sm font-medium mb-1">Javascript</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 70%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="text-sm font-medium mb-1">HTML</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 95%"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="text-sm font-medium mb-1">CSS</p>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Reference Person Section -->
+                <div>
+                    <h2 class="text-2xl font-bold border-b-2 border-gray-500 pb-2 mb-4">REFERENCE PERSON</h2>
+                    <div class="mb-4">
+                        <p class="font-semibold">Mr. Hien Luong - Company</p>
+                        <p class="text-sm text-gray-300">Position:</p>
+                        <p class="text-sm text-gray-300">Contact:</p>
+                    </div>
+                    <div>
+                        <p class="font-semibold">Mr. Khiet Luong - Company</p>
+                        <p class="text-sm text-gray-300">Name:</p>
+                        <p class="text-sm text-gray-300">Position:</p>
+                        <p class="text-sm text-gray-300">Contact:</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column (60%) -->
+            <div class="md:w-3/5 bg-white p-8">
+                <!-- Name and Title Header -->
+                <div class="pb-6 mb-8 border-b-2 border-gray-200">
+                    <h1 class="text-5xl font-bold text-gray-800">NGUYEN VAN A</h1>
+                    <p class="text-2xl text-gray-600 mt-2">Title: DEVELOPER</p>
+                </div>
+
+                <!-- Education Section -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">EDUCATION</h2>
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold text-gray-700">2014-2016 Lorem ipsum dolor sit amet</h3>
+                        <p class="text-md font-medium text-gray-600 mb-2">consectetur.</p>
+                        <p class="text-sm text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed culpa eius explicabo fuga vitae! Mollitia
+                            impedit inventore facere voluptas qua beatae.
+                            Ipsam, possimus aliquam, dolor molestiae repellat
+                            fugiat quis!
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700">2014-2016 Lorem ipsum dolor sit amet</h3>
+                        <p class="text-md font-medium text-gray-600 mb-2">consectetur.</p>
+                        <p class="text-sm text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed culpa eius explicabo fuga vitae! Mollitia
+                            impedit inventore facere voluptas qua beatae.
+                            Ipsam, possimus aliquam, dolor molestiae repellat
+                            fugiat quis!
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience Section -->
+                <div>
+                    <h2 class="text-2xl font-bold text-gray-800 mb-6">EXPERIENCE</h2>
+                    <div class="mb-6">
+                        <h3 class="text-lg font-semibold text-gray-700">2014-2016 Lorem ipsum dolor sit amet</h3>
+                        <p class="text-md font-medium text-gray-600 mb-2">consectetur.</p>
+                        <p class="text-sm text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed culpa eius explicabo fuga vitae! Mollitia
+                            impedit inventore facere voluptas qua beatae.
+                            Ipsam, possimus aliquam, dolor molestiae repellat
+                            fugiat quis!
+                        </p>
+                    </div>
+                     <div class="mb-6">
+                        <h3 class="text-lg font-semibold text-gray-700">2014-2016 Lorem ipsum dolor sit amet</h3>
+                        <p class="text-md font-medium text-gray-600 mb-2">consectetur.</p>
+                        <p class="text-sm text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed culpa eius explicabo fuga vitae! Mollitia
+                            impedit inventore facere voluptas qua beatae.
+                            Ipsam, possimus aliquam, dolor molestiae repellat
+                            fugiat quis!
+                        </p>
+                    </div>
+                     <div class="mb-6">
+                        <h3 class="text-lg font-semibold text-gray-700">2014-2016 Lorem ipsum dolor sit amet</h3>
+                        <p class="text-md font-medium text-gray-600 mb-2">consectetur.</p>
+                        <p class="text-sm text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed culpa eius explicabo fuga vitae! Mollitia
+                            impedit inventore facere voluptas qua beatae.
+                            Ipsam, possimus aliquam, dolor molestiae repellat
+                            fugiat quis!
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-700">2011-2014 Lorem ipsum dolor sit amet</h3>
+                        <p class="text-md font-medium text-gray-600 mb-2">consectetur.</p>
+                        <p class="text-sm text-gray-500">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Sed culpa eius explicabo fuga vitae! Mollitia
+                            impedit inventore facere voluptas qua beatae.
+                            Ipsam, possimus aliquam, dolor molestiae repellat
+                            fugiat quis!
+                        </s
+>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
